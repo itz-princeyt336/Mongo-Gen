@@ -55,7 +55,7 @@ const rest = new REST({ version: '9' }).setToken(config.token);
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setStatus('online');
-client.user.setActivity(`qcdevs.xyz/discord`);
+client.user.setActivity(`Ghost Planet`);
 });
 
 client.on('interactionCreate', async interaction => {
