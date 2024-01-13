@@ -1,0 +1,23 @@
+{
+  "name": "mongogen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^2.2.0",
+    "discord-api-types": "^0.37.67",
+    "discord.js": "^13.17.1",
+    "express": "^4.18.2",
+    "mongodb": "^4.0.0",
+    "urlib": "^0.0.4",
+    "urllib": "^2.40.0"
+  }
+}
