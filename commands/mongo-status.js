@@ -35,7 +35,7 @@ module.exports = {
         description: `The MongoDB at ${mongoURL} is online. MongoDB Version: ${dbInfo.version}.`,
         color: 0x00FF00, // Green color
         footer: {
-          text: "Made By QC Devs",
+          text: "Made By Ghost Planet",
           icon_url: interaction.client.user.avatarURL(), // Use the bot's avatar URL
         },
       };
@@ -52,7 +52,7 @@ module.exports = {
           description: 'MongoDB is offline.',
           color: 0xFF0000, // Red color
           footer: {
-            text: "Made By QC Devs",
+            text: "Made By Ghost Planet",
             icon_url: interaction.client.user.avatarURL(), // Use the bot's avatar URL
           },
         };
